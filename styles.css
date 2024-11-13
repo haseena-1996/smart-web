@@ -1,0 +1,268 @@
+/* Reset basic styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and global styles */
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+/* Header Styles */
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    margin: 0 ;
+    padding: 0;
+    position: fixed;
+    background-color: #ec9884;
+    width:100%;
+    height: 16vh;
+    top: 0px;
+    outline-width: 0.1px;
+    border-bottom: solid;
+}
+
+nav .logo {
+    padding-left: 3px;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 250px;   
+}
+
+nav .logo a {
+    color: #fff;
+    font-size: 3px;
+    height: 3px;
+    width: 3px;
+}
+
+nav .logo:hover {
+    color: #f0f0f0;
+}
+
+.nav-links {     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 ;
+    padding: 0 20px;
+}
+
+.nav-links li {
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    padding: 0 ;
+    font-size: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+
+.social-icons{
+    display: flex; 
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    margin-left:20px;
+    margin-top: 30px;
+    background-color: #ec9884;
+    border-radius:3px; 
+}
+
+.social-icons a i{
+    font-size:30px; 
+    color: white;
+}
+
+.social-icons a:hover i{
+    transform: none;
+}
+
+
+/* section styles */
+
+.container {
+    background-image: url("https://www.7up.com/images/simple-7up/image3.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+    align-content: center; 
+    background-position: center;
+}
+
+.container .text h1{
+    padding: 10px;
+    margin-left: 100px;
+    display: block;
+    font-size:4rem;
+    font-weight: 400px;
+}
+
+.container .text p{
+    padding:0;
+    margin-left: 110px;
+    padding-bottom: 30px;
+    display: block;
+    font-size:4rem;
+    text-align: left;
+    font-weight: 400px;
+}
+
+.container .btn{  
+    margin-left: 120px;
+    border-color: #fff;
+    background: transparent;
+    cursor: pointer;
+    
+    
+}
+
+.container .btn_1:hover{
+    font-style: normal;
+}
+
+.container_1 {
+    background-image: url("https://www.7up.com/images/simple-7up/image2.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 200px;
+    align-content: center; 
+    background-position: center;
+
+}
+
+.content{
+    background-color:rgba(52, 98, 52, 0.8);
+    padding: 10px; 
+    border: none;
+    outline: none;
+    border-radius: 90px;
+    height: 200px;
+    width: 600px;
+    margin-left: 500px;
+    margin-bottom: 80px;
+    
+}
+
+.text h2{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.text p{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+    padding: 10px;
+
+}
+.btn{
+    background-color: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    justify-content: center;
+    padding: 7px 20px;
+    justify-items: center;
+    border:2px solid white;
+    font-size: 1.2rem;
+    margin-left: 220px;
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+
+.btn_1:hover{
+    text-transform: none;
+}
+
+.container_2 {
+    background-image: url("https://www.7up.com/images/simple-7up/image1.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 200px;
+    align-content: center; 
+    background-position: center;
+}
+
+
+/* Footer Section */
+
+.footer {
+    background-color: #494647;
+    padding: 40px 10px;
+    margin:0;
+    height:150px;
+    width: 100%;    
+}
+
+
+.footer .enquiry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer .enquiry li{
+    display: flex;
+    text-align: center;
+    margin: 7px;
+    padding: 0 auto;
+    font-size: 0.8rem;     
+}
+
+.footer .enquiry a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+    
+.footer .enquiry a:hover{
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.footer .copyright{
+    padding: 0;
+    font-size: 0.7rem;
+    margin-top: 30px;
+    text-align:center;
+    margin-left:0;    
+}
